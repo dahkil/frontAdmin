@@ -1,0 +1,56 @@
+/* Side menubar section */
+nav{
+    background: #fff;
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 212px;
+	height: 100%;
+    z-index: 2000;
+	
+	
+  }
+  .admin-icon {
+    font-size: 48px; 
+    margin: 0 auto 10px; 
+    color: rgb(170, 16, 16); 
+    display: block; 
+    margin-top: 15px;
+  }
+  .side_navbar{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .side_navbar span{
+    color: rgb(170, 16, 16);
+    margin: 1rem 3rem;
+    font-size: 12px;
+  }
+  .side_navbar a{
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+  }
+  .links{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .links a{
+    font-size: 13px;
+  }
+  .side_navbar a:hover{
+    background: rgb(235, 235, 235);
+  }
+  .side_navbar .active{
+    border-left: 2px solid rgb(100, 100, 100);
+  }
+  
+.bx {
+  margin-right: 8px; 
+  color: #a70606;
+}
